@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b0c77b84-4977-4d9b-8f99-6d8c7eade576" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoadingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoadingTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,14 +27,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="102" />
-          <entry key="txt" value="10" />
+          <entry key="txt" value="38" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="102" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PLAIN_TEXT" value="38" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -66,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegisterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,9 +116,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/RegisterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/RegisterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/LoadingTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/RegisterTest.java" />
       </list>
     </option>
   </component>
@@ -194,7 +195,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542847719380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542847775787" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -299,7 +300,7 @@
       <option name="presentableId" value="Default" />
       <updated>1542838561462</updated>
       <workItem from="1542838566188" duration="3402000" />
-      <workItem from="1542844731947" duration="2593000" />
+      <workItem from="1542844731947" duration="3017000" />
     </task>
     <task id="LOCAL-00001" summary="Webdriver">
       <created>1542846287630</created>
@@ -308,13 +309,17 @@
       <option name="project" value="LOCAL" />
       <updated>1542846287631</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pom dependencies fix">
+      <created>1542847763786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542847763786</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegisterTest - 2018.11.21 at 23h 34m 46s.xml">
-      <configuration name="RegisterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RegisterTest - 2018.11.22 at 00h 22m 09s.xml">
       <configuration name="RegisterTest" configurationId="JUnit" />
     </history-entry>
@@ -342,9 +347,12 @@
     <history-entry file="LoadingTest - 2018.11.22 at 01h 17m 15s.xml">
       <configuration name="LoadingTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RegisterTest - 2018.11.22 at 01h 48m 54s.xml">
+      <configuration name="RegisterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5995000" />
+    <option name="totallyTimeSpent" value="6419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,7 +367,7 @@
     <frame x="830" y="0" width="853" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25537294" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25537294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,7 +376,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,7 +386,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32564104" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32901555" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32814527" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -398,7 +406,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Webdriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Webdriver" />
+    <MESSAGE value="pom dependencies fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom dependencies fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/test" />
@@ -422,7 +431,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

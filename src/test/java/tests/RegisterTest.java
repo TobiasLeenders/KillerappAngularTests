@@ -36,7 +36,6 @@ public class RegisterTest {
         driver.findElement(By.id("mat-input-2")).clear();
         driver.findElement(By.id("mat-input-2")).sendKeys("test@email.com");
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]")).click();
-        driver.findElement(By.id("mat-input-99")).click();
     }
 
     @After
