@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.junit.*;
 import static org.junit.Assert.*;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class LoadingTest {
@@ -15,11 +16,11 @@ public class LoadingTest {
 
     @Before
     public void setUp() throws Exception {
-        System.setProperty("webdriver.gecko.driver",
+        /*System.setProperty("webdriver.gecko.driver",
                 "C:\\Users\\Tobias\\Downloads\\geckodriver-v0.23.0-win64\\geckodriver.exe");
-
+*/
         baseUrl = "http://localhost:4200";
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
         driver.get(baseUrl);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
