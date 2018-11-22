@@ -24,12 +24,6 @@
             <version>2.45.0</version>
         </dependency>
         <dependency>
-            <groupId>org.openqa.selenium</groupId>
-            <artifactId>selenium</artifactId>
-            <version>0.8.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-firefox-driver</artifactId>
             <version>3.12.0</version>
