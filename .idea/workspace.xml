@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0c77b84-4977-4d9b-8f99-6d8c7eade576" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/RegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/RegisterTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,24 +18,24 @@
     <session id="1308596798">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="102" />
-          <entry key="txt" value="53" />
+          <entry key="java" value="150" />
+          <entry key="txt" value="71" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="102" />
-          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="JAVA" value="150" />
+          <entry key="PLAIN_TEXT" value="71" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegisterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="398">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoadingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="204">
               <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,6 +100,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>maven</find>
+      <find>com</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,10 +131,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="509" />
-    <option name="y" value="28" />
-    <option name="width" value="855" />
-    <option name="height" value="913" />
+    <option name="x" value="-9" />
+    <option name="width" value="977" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,8 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,16 +189,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542848426647" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543963968429" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RegisterTest">
+  <component name="RunManager" selected="JUnit.RegisterTest.testRegistrationKillerApp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -256,6 +260,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegisterTest.testRegistrationKillerApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KillerappAngularTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.RegisterTest" />
+      <option name="METHOD_NAME" value="testRegistrationKillerApp" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -282,9 +303,11 @@
     <list>
       <item itemvalue="JUnit.RegisterTest" />
       <item itemvalue="JUnit.LoadingTest" />
+      <item itemvalue="JUnit.RegisterTest.testRegistrationKillerApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegisterTest.testRegistrationKillerApp" />
         <item itemvalue="JUnit.RegisterTest" />
         <item itemvalue="JUnit.LoadingTest" />
       </list>
@@ -303,6 +326,8 @@
       <workItem from="1542838566188" duration="3402000" />
       <workItem from="1542844731947" duration="3374000" />
       <workItem from="1542872878173" duration="2118000" />
+      <workItem from="1543409680198" duration="1903000" />
+      <workItem from="1543956923723" duration="1974000" />
     </task>
     <task id="LOCAL-00001" summary="Webdriver">
       <created>1542846287630</created>
@@ -325,28 +350,17 @@
       <option name="project" value="LOCAL" />
       <updated>1542848131618</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved to GitHub">
+      <created>1543409806040</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543409806041</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegisterTest - 2018.11.22 at 00h 22m 09s.xml">
-      <configuration name="RegisterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisterTest - 2018.11.22 at 00h 22m 51s.xml">
-      <configuration name="RegisterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisterTest - 2018.11.22 at 00h 23m 29s.xml">
-      <configuration name="RegisterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisterTest - 2018.11.22 at 00h 26m 07s.xml">
-      <configuration name="RegisterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisterTest - 2018.11.22 at 00h 27m 40s.xml">
-      <configuration name="RegisterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisterTest - 2018.11.22 at 01h 15m 26s.xml">
-      <configuration name="RegisterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RegisterTest - 2018.11.22 at 01h 16m 06s.xml">
       <configuration name="RegisterTest" configurationId="JUnit" />
     </history-entry>
@@ -359,9 +373,27 @@
     <history-entry file="RegisterTest - 2018.11.22 at 01h 48m 54s.xml">
       <configuration name="RegisterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RegisterTest - 2018.11.28 at 14h 21m 29s.xml">
+      <configuration name="RegisterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest - 2018.11.28 at 14h 22m 46s.xml">
+      <configuration name="RegisterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_testRegistrationKillerApp - 2018.11.28 at 14h 29m 01s.xml">
+      <configuration name="RegisterTest.testRegistrationKillerApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_testRegistrationKillerApp - 2018.12.04 at 21h 57m 53s.xml">
+      <configuration name="RegisterTest.testRegistrationKillerApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_testRegistrationKillerApp - 2018.12.04 at 23h 34m 22s.xml">
+      <configuration name="RegisterTest.testRegistrationKillerApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_testRegistrationKillerApp - 2018.12.04 at 23h 34m 51s.xml">
+      <configuration name="RegisterTest.testRegistrationKillerApp" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8894000" />
+    <option name="totallyTimeSpent" value="12771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,10 +405,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="596" y="34" width="854" height="911" extended-state="1" />
+    <frame x="-7" y="0" width="852" height="909" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26262626" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27468354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,7 +417,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28311688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,7 +427,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32564104" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32814527" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32597402" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,7 +449,8 @@
     <MESSAGE value="Webdriver" />
     <MESSAGE value="pom dependencies fix" />
     <MESSAGE value="Unit test fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit test fixed" />
+    <MESSAGE value="Moved to GitHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved to GitHub" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/test" />
@@ -430,7 +463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoadingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="204">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -440,8 +473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="398">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -451,9 +484,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>KillerappAngularTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

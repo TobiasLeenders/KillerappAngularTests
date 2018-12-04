@@ -21,20 +21,21 @@ public class RegisterTest {
         baseUrl = "http://localhost:4200";
         driver = new FirefoxDriver();
         driver.get(baseUrl);
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @Test
     public void testRegistrationKillerApp() throws Exception {
-        driver.findElement(By.id("mat-input-0")).click();
-        driver.findElement(By.id("mat-input-0")).clear();
-        driver.findElement(By.id("mat-input-0")).sendKeys("registrationTest2");
-        driver.findElement(By.id("mat-input-1")).click();
-        driver.findElement(By.id("mat-input-1")).clear();
-        driver.findElement(By.id("mat-input-1")).sendKeys("password");
+        driver.findElement(By.id("mat-tab-label-0-1")).click();
         driver.findElement(By.id("mat-input-2")).click();
         driver.findElement(By.id("mat-input-2")).clear();
-        driver.findElement(By.id("mat-input-2")).sendKeys("test@email.com");
+        driver.findElement(By.id("mat-input-2")).sendKeys("registrationTest2");
+        driver.findElement(By.id("mat-input-3")).click();
+        driver.findElement(By.id("mat-input-3")).clear();
+        driver.findElement(By.id("mat-input-3")).sendKeys("password");
+        driver.findElement(By.id("mat-input-4")).click();
+        driver.findElement(By.id("mat-input-4")).clear();
+        driver.findElement(By.id("mat-input-4")).sendKeys("test@email.com");
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]")).click();
     }
 
