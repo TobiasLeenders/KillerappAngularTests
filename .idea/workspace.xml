@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0c77b84-4977-4d9b-8f99-6d8c7eade576" name="Default Changelist" comment="LoginTest add">
+    <list default="true" id="b0c77b84-4977-4d9b-8f99-6d8c7eade576" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/RegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/RegisterTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,15 +28,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="394" />
-          <entry key="txt" value="120" />
+          <entry key="java" value="398" />
+          <entry key="txt" value="122" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="394" />
-          <entry key="PLAIN_TEXT" value="120" />
+          <entry key="JAVA" value="398" />
+          <entry key="PLAIN_TEXT" value="122" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -70,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegisterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,7 +198,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543999871100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544007394626" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../KillerAppBackend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -350,7 +349,7 @@
       <workItem from="1543409680198" duration="1903000" />
       <workItem from="1543956923723" duration="3698000" />
       <workItem from="1543967211745" duration="735000" />
-      <workItem from="1543968683558" duration="2177000" />
+      <workItem from="1543968683558" duration="3627000" />
     </task>
     <task id="LOCAL-00001" summary="Webdriver">
       <created>1542846287630</created>
@@ -387,43 +386,50 @@
       <option name="project" value="LOCAL" />
       <updated>1543964027654</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LoginTest added">
+      <created>1543999940543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543999940543</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegisterTest_testRegistrationKillerApp - 2018.12.05 at 00h 49m 30s.xml">
+    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 09h 51m 18s.xml">
+      <configuration name="RegisterTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_testRegistrationKillerApp - 2018.12.05 at 09h 57m 42s.xml">
       <configuration name="RegisterTest.testRegistrationKillerApp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTest_testRegistrationKillerApp - 2018.12.05 at 01h 14m 37s.xml">
+    <history-entry file="RegisterTest_testRegistrationKillerApp - 2018.12.05 at 11h 47m 21s.xml">
       <configuration name="RegisterTest.testRegistrationKillerApp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 01h 15m 41s.xml">
+    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 11h 47m 43s.xml">
       <configuration name="RegisterTest.loginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 01h 18m 28s.xml">
+    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 11h 50m 09s.xml">
       <configuration name="RegisterTest.loginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 01h 43m 05s.xml">
+    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 11h 50m 29s.xml">
       <configuration name="RegisterTest.loginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 01h 45m 31s.xml">
+    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 11h 50m 45s.xml">
       <configuration name="RegisterTest.loginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 01h 47m 17s.xml">
+    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 11h 51m 26s.xml">
       <configuration name="RegisterTest.loginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 01h 48m 24s.xml">
+    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 11h 52m 12s.xml">
       <configuration name="RegisterTest.loginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 09h 48m 05s.xml">
-      <configuration name="RegisterTest.loginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 09h 50m 54s.xml">
+    <history-entry file="RegisterTest_loginTest - 2018.12.05 at 11h 53m 07s.xml">
       <configuration name="RegisterTest.loginTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17407000" />
+    <option name="totallyTimeSpent" value="18857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +489,8 @@
     <MESSAGE value="Moved to GitHub" />
     <MESSAGE value="Fixed test" />
     <MESSAGE value="Fixed registerTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed registerTest" />
+    <MESSAGE value="LoginTest added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LoginTest added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/test" />
@@ -507,7 +514,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

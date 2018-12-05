@@ -45,12 +45,13 @@ public class RegisterTest {
         driver.get(baseUrl);
         driver.findElement(By.id("mat-input-0")).click();
         driver.findElement(By.id("mat-input-0")).clear();
-        driver.findElement(By.id("mat-input-0")).sendKeys("registrationTest");
+        driver.findElement(By.id("mat-input-0")).sendKeys("1");
         driver.findElement(By.id("mat-input-1")).click();
         driver.findElement(By.id("mat-input-1")).clear();
-        driver.findElement(By.id("mat-input-1")).sendKeys("password");
+        driver.findElement(By.id("mat-input-1")).sendKeys("2");
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]")).click();
-        assertEquals("registrationTest", driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::span[1]")).getText());
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        assertEquals("1", driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::span[1]")).getText());
     }
 
     @After
