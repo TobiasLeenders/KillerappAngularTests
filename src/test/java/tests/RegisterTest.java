@@ -29,7 +29,7 @@ public class RegisterTest {
         driver.findElement(By.id("mat-tab-label-0-1")).click();
         driver.findElement(By.id("mat-input-2")).click();
         driver.findElement(By.id("mat-input-2")).clear();
-        driver.findElement(By.id("mat-input-2")).sendKeys("registrationTest2");
+        driver.findElement(By.id("mat-input-2")).sendKeys("registrationTest");
         driver.findElement(By.id("mat-input-3")).click();
         driver.findElement(By.id("mat-input-3")).clear();
         driver.findElement(By.id("mat-input-3")).sendKeys("password");
@@ -37,6 +37,20 @@ public class RegisterTest {
         driver.findElement(By.id("mat-input-4")).clear();
         driver.findElement(By.id("mat-input-4")).sendKeys("test@email.com");
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]")).click();
+        //TODO Assert can't register because user already exists or else Assert registration complete
+    }
+
+    @Test
+    public void loginTest() throws Exception {
+        driver.get(baseUrl);
+        driver.findElement(By.id("mat-input-0")).click();
+        driver.findElement(By.id("mat-input-0")).clear();
+        driver.findElement(By.id("mat-input-0")).sendKeys("registrationTest");
+        driver.findElement(By.id("mat-input-1")).click();
+        driver.findElement(By.id("mat-input-1")).clear();
+        driver.findElement(By.id("mat-input-1")).sendKeys("password");
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]")).click();
+        assertEquals("registrationTest", driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::span[1]")).getText());
     }
 
     @After
